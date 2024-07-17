@@ -446,3 +446,45 @@ footer {
 .foot-soc-list-icon {
   fill: #f4f4fd;
 }
+.footer-form {
+  margin-left: auto;
+}
+.footer-form-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: white;
+  margin-bottom: 24px;
+}
+.footer-form-input {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 264px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+  margin-right: 24px;
+}
+.footer-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: white;
+}
+.footer-form-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  background-color: #4d5ae5;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: white;
+}
+.footer-form-icon {
+  fill: #fff;
+}
