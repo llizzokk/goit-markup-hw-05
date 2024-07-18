@@ -449,6 +449,10 @@ footer {
 .footer-form-wrap {
   margin-left: auto;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
 .footer-form-text {
   font-weight: 500;
   font-size: 16px;
@@ -458,37 +462,38 @@ footer {
   margin-bottom: 16px;
 }
 .footer-form-input {
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  padding: 8px 16px;
-  margin-right: 24px;
-}
-.footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.04em;
-  color: white;
+  padding-left: 16px;
+  color: #ffffff;
+}
+.footer-form-input::placeholder {
+  color: #ffffff;
 }
 .footer-form-btn {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   height: 40px;
-  width: 165px;
+  min-width: 165px;
   background-color: #4d5ae5;
-  border: 0;
+  border: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: white;
+  color: #ffffff;
 }
 .footer-form-icon {
   margin-left: 16px;
