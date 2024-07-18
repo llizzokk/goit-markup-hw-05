@@ -654,7 +654,7 @@ footer {
   margin-right: auto;
   margin-bottom: 24px;
 }
-.visually-hidden {
+.modal-check-span {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -686,6 +686,9 @@ footer {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+}
+.modal-link {
+  color: #4d5ae5;
 }
 .modal-send-btn {
   border: 0;
